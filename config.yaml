@@ -1,0 +1,62 @@
+# Bookmark Geni MCP Server Configuration
+
+# Debug mode - enables verbose logging
+debug: false
+
+# Browser configuration
+# Note: Safari is not supported - reading Bookmarks.plist requires special macOS permissions
+browsers:
+  Chrome:
+    enabled: true
+    # Default paths:
+    # Win: ~/AppData/Local/Google/Chrome/User Data/Default/Bookmarks
+    # Mac: ~/Library/Application Support/Google/Chrome/Default/Bookmarks
+    # Lin: ~/.config/google-chrome/Default/Bookmarks
+  Edge:
+    enabled: false
+    # Default paths:
+    # Win: ~/AppData/Local/Microsoft/Edge/User Data/Default/Bookmarks
+    # Mac: ~/Library/Application Support/Microsoft Edge/Default/Bookmarks
+    # Lin: ~/.config/microsoft-edge/Default/Bookmarks
+    #
+    # Optional: Override default path detection
+    # paths:
+    #   - "/path/to/custom/Bookmarks"
+  Firefox:
+    enabled: false
+    # Default paths (places.sqlite):
+    # Win: ~/AppData/Roaming/Mozilla/Firefox/Profiles/*.default-release/places.sqlite
+    # Mac: ~/Library/Application Support/Firefox/Profiles/*.default-release/places.sqlite
+    # Lin: ~/.mozilla/firefox/*.default-release/places.sqlite
+  Opera:
+    enabled: false
+    # Default paths:
+    # Win: ~/AppData/Roaming/Opera Software/Opera Stable/Bookmarks
+    # Mac: ~/Library/Application Support/com.operasoftware.Opera/Bookmarks
+    # Lin: ~/.config/opera/Bookmarks
+  "ChatGPT Atlas":
+    enabled: false
+    # Default paths:
+    # Mac: ~/Library/Application Support/ChatGPT Atlas/Default/Bookmarks
+  "Perplexity Comet":
+    enabled: false
+    # Default paths:
+    # Win: ~/AppData/Local/Perplexity/Comet/User Data/Default/Bookmarks
+    # Mac: ~/Library/Application Support/Comet/Default/Bookmark
+    # Lin: ~/.config/perplexity-comet/Default/Bookmarks
+
+# ChromaDB storage path (relative to MCP server root or absolute path)
+chromaDbPath: ".chromadb"
+
+# JSONL metadata file path (relative to MCP server root or absolute path)
+metadataJsonlPath: "data/bookmarks_metadata.jsonl"
+
+# URL tracker JSON file path (relative to MCP server root or absolute path)
+# Stores all processed URLs to ensure unique URLs are processed only once
+urlJsonPath: "data/urls.json"
+
+# Limit the number of URLs to process per browser
+# Set to -1 to process all URLs (default)
+# Set to a positive number to limit processing (e.g., 100 to process only first 100 URLs)
+# urlLimit: 10
+
