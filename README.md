@@ -3,7 +3,7 @@
 Stand-alone MCP (Model Context Protocol) server for processing local browser bookmarks and making url/bookmarks easily searchable using natural language.
 
 
-<video controls src="recording1.mov" title="Title"></video>
+<video controls src="./recording1.mov" title="Bookmark Geni MCP Demo"></video>
 
 Connect to Claud Desk top or Gemini CLI
 <img width="832" height="595" alt="Screenshot 2025-11-28 at 10 16 08 PM" src="https://github.com/user-attachments/assets/99c368bd-127e-4f08-8e04-0fbfd7322146" />
