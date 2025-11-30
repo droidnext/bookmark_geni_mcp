@@ -2,12 +2,17 @@
 
 Stand-alone MCP (Model Context Protocol) server for processing local browser bookmarks and making url/bookmarks easily searchable using natural language.
 
+
+<video controls src="https://github.com/user-attachments/assets/recording1.mov" title="Title"></video>
+
 Connect to Claud Desk top or Gemini CLI
 <img width="832" height="595" alt="Screenshot 2025-11-28 at 10 16 08 PM" src="https://github.com/user-attachments/assets/99c368bd-127e-4f08-8e04-0fbfd7322146" />
 
 <img width="835" height="614" alt="Screenshot 2025-11-28 at 10 19 21 PM" src="https://github.com/user-attachments/assets/978e519a-4327-44d7-a8a6-31d250ebcec9" />
 
 <img width="842" height="606" alt="Screenshot 2025-11-28 at 10 19 49 PM" src="https://github.com/user-attachments/assets/8be42616-c138-4d98-81ee-0765c0ddfc73" />
+
+
 
 
 ## Features
